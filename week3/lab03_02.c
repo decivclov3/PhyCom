@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(){
+    double n1, n2, n3, n4;
+    scanf("%lf\n%lf\n%lf\n%lf", &n1, &n2, &n3, &n4);
+    printf("Summation is %.2lf\n",(n1 + n2 + n3 + n4));
+    printf("Average is %.3lf",((n1 + n2 + n3 + n4) /4));
+
+    return 0;
+}
